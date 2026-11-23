@@ -1,0 +1,1149 @@
+<!DOCTYPE html><html lang="en" class="scroll-smooth"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NADAN THATTUKADA — Authentic Taste of Kerala</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">/** @type {import('tailwindcss').Config} */
+globalThis.tailwind = globalThis.tailwind || {};
+globalThis.tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        'leaf-green': '#1B4D2E',
+        'on-leaf-green': '#FFFFFF',
+        'turmeric-gold': '#D49B1A',
+        'on-turmeric-gold': '#28180C',
+        'teak-brown': '#4A230D',
+        'on-teak-brown': '#FFFFFF',
+        'cream-ivory': '#FDF8EE',
+        'on-cream-ivory': '#28180C',
+        'veg-green': '#15803D',
+        'nonveg-red': '#B91C1C',
+        'light-primary': '#00361A',
+        'light-on-primary': '#FFFFFF',
+        'light-primary-container': '#1B4D2E',
+        'light-on-primary-container': '#FFFFFF',
+        'light-secondary': '#7C5800',
+        'light-on-secondary': '#FFFFFF',
+        'light-secondary-container': '#FDBF40',
+        'light-on-secondary-container': '#28180C',
+        'light-tertiary': '#4A230D',
+        'light-on-tertiary': '#FFFFFF',
+        'light-tertiary-container': '#653921',
+        'light-on-tertiary-container': '#FFFFFF',
+        'light-error': '#BA1A1A',
+        'light-on-error': '#FFFFFF',
+        'light-background': '#FDF8EE',
+        'light-on-background': '#28180C',
+        'light-surface': '#FDF8EE',
+        'light-surface-container-lowest': '#FFFFFF',
+        'light-surface-container-low': '#FFF6E6',
+        'light-surface-container': '#F9ECD6',
+        'light-surface-container-high': '#F2E0C4',
+        'light-on-surface': '#28180C',
+        'light-surface-variant': '#E6D9C5',
+        'light-on-surface-variant': '#574334',
+        'light-outline': '#7D6857',
+        'light-outline-variant': '#D9C7B0',
+      },
+      borderRadius: {
+        'sm': '6px',
+        'DEFAULT': '8px',
+        'md': '12px',
+        'lg': '16px',
+        'xl': '24px',
+        'full': '9999px',
+      },
+      spacing: {
+        'gutter-xs': '4px',
+        'gutter-sm': '8px',
+        'gutter-md': '16px',
+        'gutter-lg': '24px',
+        'gutter-xl': '32px',
+        'section': '48px',
+        'page-margin': '20px',
+      },
+      fontFamily: {
+        'display': ['"Playfair Display"', 'sans-serif'],
+        'headline': ['"Playfair Display"', 'sans-serif'],
+        'title': ['"Inter"', 'sans-serif'],
+        'body': ['"Inter"', 'sans-serif'],
+        'label': ['"Inter"', 'sans-serif'],
+      },
+      fontSize: {
+        'display-lg': ['48px', { lineHeight: '56px', letterSpacing: '-0.5px', fontWeight: '700' }],
+        'display-lg-mobile': ['32px', { lineHeight: '40px', letterSpacing: '-0.25px', fontWeight: '700' }],
+        'headline-lg': ['30px', { lineHeight: '38px', letterSpacing: '-0.2px', fontWeight: '700' }],
+        'headline-md': ['22px', { lineHeight: '30px', letterSpacing: '0px', fontWeight: '700' }],
+        'title-lg': ['19px', { lineHeight: '26px', letterSpacing: '0px', fontWeight: '700' }],
+        'title-md': ['16px', { lineHeight: '24px', letterSpacing: '0px', fontWeight: '600' }],
+        'body-lg': ['17px', { lineHeight: '26px', letterSpacing: '0px', fontWeight: '400' }],
+        'body-md': ['14px', { lineHeight: '21px', letterSpacing: '0px', fontWeight: '400' }],
+        'body-sm': ['12px', { lineHeight: '18px', letterSpacing: '0px', fontWeight: '400' }],
+        'label-lg': ['14px', { lineHeight: '20px', letterSpacing: '0px', fontWeight: '600' }],
+        'label-md': ['13px', { lineHeight: '18px', letterSpacing: '0.1px', fontWeight: '500' }],
+        'label-sm': ['11px', { lineHeight: '16px', letterSpacing: '0.2px', fontWeight: '600' }],
+      },
+      transitionDuration: {
+        'state-change': '150ms',
+      },
+      transitionDelay: {
+        'state-change': '0ms',
+      },
+      transitionTimingFunction: {
+        'state-change': 'ease-out',
+      },
+    },
+  },
+};
+if (typeof module !== 'undefined') module.exports = globalThis.tailwind.config;
+</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Noto+Sans+Malayalam:wght@400;500;600&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet">
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body class="bg-light-surface text-light-on-surface font-body antialiased">
+  <div id="root" class="min-h-[1024px] flex flex-col" data-stitch-vh="min-h-[1024px]===min-h-screen"></div>
+
+  <script type="text/babel" data-stitch-original-script="cea6d43d7029c82e===../../images/dish_puttu_kadala.jpg|||19fb8813be396ff8===../../images/dish_appam_stew.jpg|||e83461e5b1129cef===../../images/dish_idiyappam_egg.jpg|||f534cd0f25edfe50===../../images/dish_kerala_porotta.jpg|||72e71d2d9b3d082b===../../images/dish_kerala_meals.jpg|||7e11d7621524f70e===../../images/dish_fish_curry_meals.jpg|||b2dd940213465bc1===../../images/dish_sadhya.jpg|||b94870e691d1a745===../../images/dish_malabar_biryani.jpg|||67b5d57de3035d0b===../../images/dish_thalassery_biryani.jpg|||5f9e5eed3d3ee8ae===../../images/dish_beef_porotta.jpg|||34a56f750a79f3d8===../../images/dish_kappa_meen.jpg|||3aeff44be55dfda5===../../images/dish_fish_curry.jpg|||efd7b9326c547811===../../images/dish_karimeen.jpg|||158413e4f4e367eb===../../images/dish_prawns_roast.jpg|||e458c9b45062f166===../../images/dish_fish_fry.jpg|||c36e7d5ebbddbbce===../../images/dish_pazham_pori.jpg|||569583b036c4ba4a===../../images/dish_parippu_vada.jpg|||3a543799178f8832===../../images/dish_uzhunnu_vada.jpg|||94e329e90be937cc===../../images/dish_sulaimani.jpg|||96db23c25d972bf4===../../images/dish_kerala_tea.jpg|||3cd0f5c2e9aa7849===../../images/dish_lime_juice.jpg|||02eaf4be43751182===../../images/kerala_hero_feast.jpg">
+    const { useState, useMemo } = React;
+
+    // =========================================================================
+    // Lucide-style SVG Icon Components + Traditional Kerala Decorative SVGs
+    // =========================================================================
+    const Icon = ({ children, className = "w-5 h-5", ...props }) => (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className={className}
+        aria-hidden="true"
+        {...props}
+      >
+        {children}
+      </svg>
+    );
+
+    const SearchIcon = (props) => (
+      <Icon {...props}><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></Icon>
+    );
+    const ShoppingBagIcon = (props) => (
+      <Icon {...props}><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></Icon>
+    );
+    const PlusIcon = (props) => (
+      <Icon {...props}><path d="M5 12h14"/><path d="M12 5v14"/></Icon>
+    );
+    const MinusIcon = (props) => (
+      <Icon {...props}><path d="M5 12h14"/></Icon>
+    );
+    const Trash2Icon = (props) => (
+      <Icon {...props}><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></Icon>
+    );
+    const MenuIcon = (props) => (
+      <Icon {...props}><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></Icon>
+    );
+    const XIcon = (props) => (
+      <Icon {...props}><path d="M18 6 6 18"/><path d="m6 6 12 12"/></Icon>
+    );
+    const MapPinIcon = (props) => (
+      <Icon {...props}><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></Icon>
+    );
+    const PhoneIcon = (props) => (
+      <Icon {...props}><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></Icon>
+    );
+    const ClockIcon = (props) => (
+      <Icon {...props}><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></Icon>
+    );
+    const CheckCircle2Icon = (props) => (
+      <Icon {...props}><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></Icon>
+    );
+
+    // Traditional Coconut Palm / Banana Leaf Emblem
+    const KeralaPalmEmblem = ({ className = "w-7 h-7" }) => (
+      <svg viewBox="0 0 32 32" fill="none" className={className} aria-hidden="true">
+        <path d="M16 28V12" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+        <path d="M16 12C12 7 6 8 4 11C8 11 12 12 16 12Z" fill="currentColor" />
+        <path d="M16 12C20 7 26 8 28 11C24 11 20 12 16 12Z" fill="currentColor" />
+        <path d="M16 11C13 5 9 4 6 5C10 7 13 9 16 11Z" fill="currentColor" opacity="0.85" />
+        <path d="M16 11C19 5 23 4 26 5C22 7 19 9 16 11Z" fill="currentColor" opacity="0.85" />
+        <path d="M11 28H21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+      </svg>
+    );
+
+    // =========================================================================
+    // Structured JSON Menu Data
+    // =========================================================================
+    const MENU_CATEGORIES = [
+      "All",
+      "Kerala Breakfast",
+      "Meals & Thalis",
+      "Kerala Specials",
+      "Seafood",
+      "Chicken & Beef",
+      "Snacks",
+      "Beverages",
+      "Desserts",
+    ];
+
+    const MENU_ITEMS = [
+      // BREAKFAST
+      {
+        id: "puttu-kadala",
+        name: "Puttu & Kadala Curry",
+        malayalam: "പുട്ടും കടലക്കറിയും",
+        category: "Kerala Breakfast",
+        price: 90,
+        isVeg: true,
+        badge: "Bestseller",
+        description: "Steamed rice cylinders layered with fresh coconut, paired with spiced black chickpea curry.",
+        image: "https://lh3.googleusercontent.com/aida/ALJJyrBJjfo2v9-NkYfMlNYw9WKhKp2hlJLcxhxtHYCqsHxYfaje62T-Iv_ZQlIDVmkWp7gtZou6ZDgolE6mPnH_g9Oue7sZDr0T-hoahbON37nuvu8DQO6M3JOCyCQBOQvP1RA5rIaBZ3Jo9dyydGkZFIus5pGSeltRo_Tnk2zkpZub2sHnSf8E5-84gNgYtuaQe5Lf0UirsLW-mKJm13mGYWsPSttVGRJ_B3eZyqcoXPH4vaPrM0RhCn2i-g",
+      },
+      {
+        id: "appam-stew",
+        name: "Appam & Stew",
+        malayalam: "അപ്പവും വെജിറ്റബിൾ സ്റ്റൂവും",
+        category: "Kerala Breakfast",
+        price: 120,
+        isVeg: true,
+        badge: "Popular",
+        description: "Lacy, crispy-edged fermented rice hoppers served with creamy coconut milk vegetable stew.",
+        image: "https://lh3.googleusercontent.com/aida/ALJJyrAgkGVZ-N38kjXejNGEGIgCceD6lBr44pAF8lnVjRLSuqIBjd3jPhwA65lx2E-JNPnvKYrH6nSwtXBAtlsyXf_wiQsgFzSksyxObwyae7ThGzW04c12_aTFwQGNxDv4TJjqi1GlM14kPrEBnp6ArX72bKwoqkrf5gyRlitJ5HSw_SFgBbQ3gUTjY_XSKXJ07Q-8m5ElMac5LzaHOuxTJUXKd3aZYnliMeofHX2S9Qt-9OfNT2dBOTOD",
+      },
+      {
+        id: "idiyappam-egg",
+        name: "Idiyappam & Egg Curry",
+        malayalam: "ഇടിയപ്പവും മുട്ടക്കറിയും",
+        category: "Kerala Breakfast",
+        price: 100,
+        isVeg: false,
+        badge: null,
+        description: "Delicate steamed rice string hoppers accompanied by slow-simmered Kerala Nadan egg roast.",
+        image: "https://lh3.googleusercontent.com/aida/ALJJyrCTxNt6DapU0dM9iPvFbZvx_LakM8majJGqYOMxqffigtnqElAFz9HhSaQar50IJIVgkhcrbNJvpFC8s1j9oxoK42EfFhwGxGX6Ogw7SsADhpwRZ6l80RnUENlmMl3CM5WBp8m1eeZp7OkdXY0OCRbgUectc0GG3t7T2qCTvjLQgzynle6S2yrm2fMClaisNooUi61_abVtMmkjF165ZR7U8UzP7THKx8-lpSW9vd7PYPPD_CzjSGGBIoMP",
+      },
+      {
+        id: "kerala-porotta",
+        name: "Kerala Porotta",
+        malayalam: "കേരള പൊറോട്ട",
+        category: "Kerala Breakfast",
+        price: 20,
+        isVeg: true,
+        badge: "Popular",
+        description: "Flaky, multi-layered golden flatbread hand-tossed and griddled to crisp perfection.",
+        image: "https://lh3.googleusercontent.com/aida/ALJJyrDwJcB0ashrwnIQsVtLWVKJV8mlcroZVe_PyZqfc9YsBg74w-uFnrYN8JC41JkF_VKa8tvSyIZdhsGg97QSpT-bLHiAr4ZoAla00Pp0ziLfq4SVWbpN1E5xZse3KOCdxd-J30gXRbBVJjdjOLmmM9uct_6mBNCnjGYxMRLharvCPqNCznLx0zsr63_zZGKkJY5YqfADNUj_QdOxMcPLqpUd_LrYeWmxqQGRTYpiXBmSxj-yDcB3j0HOavTUhA",
+      },
+
+      // MEALS & THALIS
+      {
+        id: "kerala-meals",
+        name: "Kerala Meals on Banana Leaf",
+        malayalam: "കേരള ഊണ് (വാഴയിലയിൽ)",
+        category: "Meals & Thalis",
+        price: 140,
+        isVeg: true,
+        badge: "Bestseller",
+        description: "Red matta rice served on a banana leaf with sambar, avial, thoran, pachadi, pickle, and papadam.",
+        image: "https://lh3.googleusercontent.com/aida/ALJJyrDFUHWkwPPrRFUf-4ZvU4q2HyrmnO4Fupi7kMiKplduu__kxOAA4NyVWjGHogjN1HfoE0cvMK1UdvedgNq96E3FpmPhbN_fNUJljtwIrO67dMSPH6GVl30YLH7hu0ueddhRwhpPvawf8Gg6-wfasNDbiyC9j2ahTxID-ueeHnNvvkrZ32ZssC9sclO17YQHRlhvaDnl0a9g17bFI3L5RmsHpfqUnPzyuVN7R1QWETHakfNOJ-uFnpsz59A",
+      },
+      {
+        id: "fish-curry-meals",
+        name: "Fish Curry Meals",
+        malayalam: "മീൻ കറി ഊണ്",
+        category: "Meals & Thalis",
+        price: 180,
+        isVeg: false,
+        badge: "Popular",
+        description: "Traditional banana-leaf meals elevated with tangy kudampuli fish curry and crispy fish fry.",
+        image: "https://lh3.googleusercontent.com/aida/ALJJyrDthc8RZj3vnVPE_pcD7-WqldXrbtMYZE0PX3mk8LMWDuHVBp9gJgEK4BxCtVlLckxG3DJxRmEERAnHA9bvSTtf2CoOn4JcQrjyys3TIAGdAT7Yh_NH4z6l4jIl48sXnTpA-AMf0tPfz632GtKUCH9ucpX4hibJCor_4MvNcZjkPq9jT9oy5pGcJ39NlonXgRSPWUF1p8b_VkuKYSBcHcC_XN-kNCx5cpvVW4Dn8i7qzsfz-Dn9MW87HS_usaE",
+      },
+      {
+        id: "sadhya",
+        name: "Sadhya",
+        malayalam: "കേരള സദ്യ",
+        category: "Meals & Thalis",
+        price: 250,
+        isVeg: true,
+        badge: "Bestseller",
+        description: "Grand traditional feast with 14 seasonal curries, olan, kalan, sharkara upperi, and palada payasam.",
+        image: "https://lh3.googleusercontent.com/aida/ALJJyrDeNQyETsh1snev3oi0_6vLqWBXKV_hPzyXRFsNlFK7QwCbNPDMDO7vFm4A9FBzPJrr8CI-Htpl3Kr111Ox9hG1pY-e3HESnWTxuFkB2F_M32qQEuf2L8QGrtU7tqgirQlmwFVolWT55ozNQA72Pao7O6wjBoAg-hjkrDYg1HePEt1NkzeVEUP4LVOiyJfIxXhhf9Jrt_2qWThKnR46kTgrTkQLINco3up2kCUnml0bjLcb1A",
+      },
+
+      // KERALA SPECIALS & CHICKEN & BEEF
+      {
+        id: "malabar-biryani",
+        name: "Malabar Chicken Biryani",
+        malayalam: "മലബാർ ചിക്കൻ ബിരിയാണി",
+        category: "Kerala Specials",
+        secondaryCategory: "Chicken & Beef",
+        price: 180,
+        isVeg: false,
+        badge: "Bestseller",
+        description: "Fragrant kaima rice cooked with spiced chicken, caramelized shallots, cashews, and Malabar ghee.",
+        image: "https://lh3.googleusercontent.com/aida/ALJJyrCixXBRuMAnDJAQUWynB6T9zQ-n8nkIjKjDHShhRqFs2gNjR71ocON9gQJ8ovXFr7nEyTsIR7ZI6MwDVysgqbA0pJZr-ayYH7WVwkzljYFadFSkS64UYcRUIZdpb95nYQjPepdFjkVpWZh00wGG-oRNb5Ih7k7uHAPDYUKTRTg19O0FfYWCfE3vjl8AzE2xFB7YKIzxToiSsQEUrPLdwMA__KlQj3ZBMMjOxKCmmILdAKWGxmxbdFamWzvDUQ",
+      },
+      {
+        id: "thalassery-biryani",
+        name: "Thalassery Biryani",
+        malayalam: "തലശ്ശേരി ദം ബിരിയാണി",
+        category: "Kerala Specials",
+        secondaryCategory: "Chicken & Beef",
+        price: 200,
+        isVeg: false,
+        badge: "Popular",
+        description: "Authentic dum-cooked jeerakasala rice layered with tender chicken, roasted spices, and date pickle.",
+        image: "https://lh3.googleusercontent.com/aida/ALJJyrA8ECgGlFj7BFcf2nJn5LwpMNj0MPM-aPFeGZ9JmnI6HIUIeYhuZhZVPbU5g6P2YET1ZNRT9rW2nUMNpMLFiVtQFaOOiELWnYhktmGBg_WTZoyF3M6dCCGaz2ZuMx--pD0U4_hXL9tYdrfkSg04XnQseCiRvD-PUUEimFpU3-Uoodhy4aud18meCTKf1p-Df1G7VKps9UQNg99kIerptwChZQ1o67wmaLY2GIjbmnC8E35mYpTJWH_E8cZp6AgT6HI",
+      },
+      {
+        id: "beef-fry-porotta",
+        name: "Beef Fry & Porotta",
+        malayalam: "ബീഫ് ഫ്രൈ & പൊറോട്ട",
+        category: "Kerala Specials",
+        secondaryCategory: "Chicken & Beef",
+        price: 160,
+        isVeg: false,
+        badge: "Bestseller",
+        description: "Slow-roasted Kerala beef ulathiyathu with toasted coconut slices and curry leaves, served with 2 porottas.",
+        image: "https://lh3.googleusercontent.com/aida/ALJJyrCiXHK-yEkMOmrWTZFRwyTwJg5FzXOtKPMjcLAalJkrCq6yk8l4GVagVVVFych35hoOyjuj1oknLOopIX0iwSrGut4D9uqjLLjHzecHx7d_xlZIYANcSdwqZlstpX4mtHpjHBGv_qSx_IYoeihHhtZn8iIOvpXsojmabWj-D4tcBOOjiY8sEeU2n_YajXVY_fFNib87yK4c1esjyCp8eWRkP0qvCGXGtamePCjFPGSV44H9bpYETwQcow",
+      },
+      {
+        id: "kappa-meen",
+        name: "Kappa & Meen Curry",
+        malayalam: "കപ്പയും മീൻ കറിയും",
+        category: "Kerala Specials",
+        price: 180,
+        isVeg: false,
+        badge: "Popular",
+        description: "Mashed tapioca tempered with mustard and curry leaves, paired with fiery red Kerala fish curry.",
+        image: "https://lh3.googleusercontent.com/aida/ALJJyrCu7CbyBLZRaVWE2MdY_cE3-FhXE-42zDrVtxlYS4de7E2HZebQQ0zY5o8dRbYrZ7cD57MEJxex8Z1N8p5n6GP4CG89JaxZ5BdNUqzsvz24Yf7u3Ug8gykBAuR9q-UN4AafRNmEtnoyULuu12nijp5-AWBCXbRUf_2lL6lVsCFbZ0ZJJtw9uNcoMwQCK4nzDBQ4t_F1BZeuDAS3RbMRtSahTRWQUG5o9oE6arrhZSnT4HMR3GYnRqeZ",
+      },
+
+      // SEAFOOD
+      {
+        id: "kerala-fish-curry",
+        name: "Kerala Fish Curry",
+        malayalam: "നാടൻ മീൻ കറി",
+        category: "Seafood",
+        price: 120,
+        isVeg: false,
+        badge: null,
+        description: "Clay-pot simmered coastal fish curry infused with Malabar tamarind, shallots, and coconut oil.",
+        image: "https://lh3.googleusercontent.com/aida/ALJJyrAYsX_aI9B3fWQh1zfzUCoqdN53CwgK6R2wJ56EzfQMOER_GzygN-qgwsnNLp7fTyb29qHqNwHazoh2I3vtyZBlYaeGNxRmo3FJx-I27A68as4xs8vNvE5DpSMFX_6K-sDx8eIVaDC-T2V5WenYvNdX4qM78THYXNWYsN0qD3BdkUKzawh4NYu4Al59bDBcoLjW0E9_GPjQaaYQ_UAyWkjmJ5K1gi5LQZf669wmNIiQvDgihI1oY97S",
+      },
+      {
+        id: "karimeen-pollichathu",
+        name: "Karimeen Pollichathu",
+        malayalam: "കരിമീൻ പൊള്ളിച്ചത്",
+        category: "Seafood",
+        price: 350,
+        isVeg: false,
+        badge: "Bestseller",
+        description: "Whole pearl spot fish marinated in rich red masala, wrapped in banana leaf, and pan-roasted.",
+        image: "https://lh3.googleusercontent.com/aida/ALJJyrC7eLIh2Zcv1K8BrlEJmjOVQIn767H0f6vYUwi7926UgnIgys5xqOiFD_MPizsRyuz7sLU2AeyK7lfmJTz5TVmulkmUeaUh2SiBjyBWszfGXnsVNWyLVWJH-uyM5aKM_BeT1Q1TVbrnHzn6VCCQ9f8wnwWBPGSZikyQ6stp_I0_O7YP6F5V_Sr5HczCYRLE2wyXoYeN-kBVkGjChICOWG6RzxqPJqnRfi6ooCGaPcY8J6D0aGo",
+      },
+      {
+        id: "prawns-roast",
+        name: "Prawns Roast",
+        malayalam: "ചെമ്മീൻ റോസ്റ്റ്",
+        category: "Seafood",
+        price: 280,
+        isVeg: false,
+        badge: "Popular",
+        description: "Succulent tiger prawns tossed in caramelized onions, Tellicherry black pepper, and curry leaves.",
+        image: "https://lh3.googleusercontent.com/aida/ALJJyrBo47yx7S0SNfVV5HtD1U0ueaVi_GI7d3-QznDHMJ-U5vXQDluV_Wt_KY1hk2HrojW7-q4RFo3dL1wxx_rPGMWwImbNTpkwlJLSoCn_uXf6D-FXMNoSKJyI5Qht_EN6rDqF8jnmLgbz5FgXgtHp6MQLDbJixxbZusdj_ildW9B6a6tcBuWgDruXO_FIO6bqwdHqvRfEc-gsvzDpW4SFDDo2ye0vBcGdib0sNp-VJDCyvCE4wKV9_VGhAA",
+      },
+      {
+        id: "fish-fry",
+        name: "Fish Fry",
+        malayalam: "മീൻ പൊരിച്ചത്",
+        category: "Seafood",
+        price: 150,
+        isVeg: false,
+        badge: null,
+        description: "Crisp seer fish fillets coated in crushed red chili, turmeric, and ginger-garlic paste.",
+        image: "https://lh3.googleusercontent.com/aida/ALJJyrD94iZ9hM_HI9RrQ-tYrX-zVslbu3HFCP9uwqtOBA9E1F9TC9Xq_QVtuW_s43-rilFWbedzjsmKW_dBdQVElnOR3iTGRZkcEQhKpQ4KeMAIIuzTPcXHNR63QqT-LO2K4S_tFZm5KjWirVRrqqgqHgf1wtNzmyMRXYa0vV98j4Ha5cHOKSmqjyThT-vWo17q0A3JPc1E_SPWpwolShzdLHoKwSYGwSSVQk8uK9_zzFDQstwI3D8",
+      },
+
+      // SNACKS
+      {
+        id: "pazham-pori",
+        name: "Pazham Pori",
+        malayalam: "പഴം പൊരി",
+        category: "Snacks",
+        price: 30,
+        isVeg: true,
+        badge: "Popular",
+        description: "Sweet ripe Nendran plantain slices dipped in golden batter and fried crisp.",
+        image: "https://lh3.googleusercontent.com/aida/ALJJyrAad5GtM0yDj-E23Hsel75brLLrCeRKPMF9whpNnZ7TzLIi9ojgqYibV7avrvuy8aBJ2zljaUHyzgLyfkqLUuG6hZ-Z39StZzOzcqx5ZjpUt-H3oMUMDsRfhrtIShXc5NB9H11L1IUtXBSpCMU4vuODfoln_HpHOeAha6c5fwmmMbQNeQ8kp5VSM0ICrXtPquWZ4HE_SVaD2Bgd73ZRoE7Qo6zXafd1qc3mtuR-z1I1zAL1ISS_kfPWZA",
+      },
+      {
+        id: "parippu-vada",
+        name: "Parippu Vada",
+        malayalam: "പരിപ്പ് വട",
+        category: "Snacks",
+        price: 15,
+        isVeg: true,
+        badge: null,
+        description: "Crunchy spiced chana dal fritters studded with shallots, green chilies, and curry leaves.",
+        image: "https://lh3.googleusercontent.com/aida/ALJJyrDHWtMUIxfuVM-E_wnlvv4lrL3D1qJhPrBoxHoB2rGYQ7xjv-yNyOx5XWwOmWtpoJDnuaWeXiyOPeCEI8iE4Oh2UVxTBkt2PBi68GL_AG2FkVJrCS_oo4mA684Fhz9BKHb-Bn8eGt93i43KfT-kFKO-W0n-_5u56NB-WFUGSgPzdaEQXUsQJ_j3CiMI7TYAZkvRG7VZKo0BBz8VVQS7eQA_eDWPe1peAKkpQaocPz7pTg2t8Gl0am5noIk",
+      },
+      {
+        id: "uzhunnu-vada",
+        name: "Uzhunnu Vada",
+        malayalam: "ഉഴുന്ന് വട",
+        category: "Snacks",
+        price: 15,
+        isVeg: true,
+        badge: null,
+        description: "Fluffy, golden urad dal lentil doughnuts served warm with fresh coconut chutney.",
+        image: "https://lh3.googleusercontent.com/aida/ALJJyrCvpTu-zN0QxvN7AQNR6PYRjFtZjnEgLQiPkw9mThcg5hBUyiQyQB3ziE0q9Sk8kfwQYYBse2dymtqPfUaXNjcP9rboEGewNdvjQO1SM9yl-CAda_4T-9qT6A8ueOu3NCBb3nNivUWza4zGP0HKo8bKCadXN73nAzC4MMlD-HVuLnx-SvuXShuZJ_K8jbEsoSfmBtUA0Zej01MkQIAxK57TVGkuRDMq23Hx6P_yOfjrn75wH9MDgdw3M7E",
+      },
+
+      // BEVERAGES
+      {
+        id: "sulaimani",
+        name: "Sulaimani",
+        malayalam: "സുലൈമാനി",
+        category: "Beverages",
+        price: 20,
+        isVeg: true,
+        badge: "Bestseller",
+        description: "Aromatic Malabar spiced black tea brewed with cardamom, cinnamon, and a squeeze of fresh lemon.",
+        image: "https://lh3.googleusercontent.com/aida/ALJJyrAGiApyvWHMdUdEA1FTyXwoLrWvsEeD3fBhxs0aof5qF3udAEYWhFqgk4agYAB2EaQgnk9n2e3h7Eprdd9TOTS5N-EM-4ssXex8NPaMAVitygV0jfVyAsWbU9QcFg1Fh6WAH-rOxSK2zxkSloBgRtrPFHRIRWMfcrnK8SHcwC03v_DWlCVbOYFyvvA7MtS397MY4Af9nYFlWQyIHAlO176DCIYPSt2qZqaKgmAXkQ1Jlp-SclwozQ",
+      },
+      {
+        id: "kerala-tea",
+        name: "Kerala Tea",
+        malayalam: "നാടൻ ചായ",
+        category: "Beverages",
+        price: 15,
+        isVeg: true,
+        badge: null,
+        description: "Classic frothy yard-poured milk tea brewed strong in traditional thattukada style.",
+        image: "https://lh3.googleusercontent.com/aida/ALJJyrBhSmpywsT42me2dctRsrY26LqKlF_xDGkKltQapuhfBVJXeFtVYTKMZCehsSlHHjAH3jB4g6ZFnd_OUzxxM8MOUdm0WACev_HZj4cDi2erjN3nM9Dj0vZzILJiGzxje107QrRg_SB7XgUax-ecDuwqQY2iMLawSWJtrtv4nGP1i17mv8vgqRemp09CuLst7643SLaaQ3qRkY0fWzSmdGKzhRP1aWdy-O9N3KcU5wBCbJwquNzJ48wp",
+      },
+      {
+        id: "fresh-lime",
+        name: "Fresh Lime Juice",
+        malayalam: "നാരങ്ങ വെള്ളം",
+        category: "Beverages",
+        price: 40,
+        isVeg: true,
+        badge: null,
+        description: "Chilled hand-pressed Kerala lime cooler with crushed mint leaves and a pinch of rock salt.",
+        image: "https://lh3.googleusercontent.com/aida/ALJJyrBL1yNJUDWoIOmXPONQX8_LzrUkE-duMhALTXtVyQKoMb0TnNfQ0-6OO015QvzlB3GfF1hnUxjbxGoDrqszEJMQL0NKmuC550Zfj1wcqEWF_zs_y_95uWBEESY19rpwWy05n2V72qsirjNAJwLrOREJadoVDyGxKdWZRco9VjQHVk9Us8QtIN-ILljrZtY1X0I22iBOcE4-dC_wZXEzJG-Cn1VlJMV9sn2n4_jxIyluYzRFKE6zvuzg",
+      },
+    ];
+
+    // =========================================================================
+    // Components
+    // =========================================================================
+
+    function RestaurantNavbar({ cartCount, onOpenMobileCart }) {
+      const [mobileNavOpen, setMobileNavOpen] = useState(false);
+
+      const links = [
+        { label: "Home", href: "#home" },
+        { label: "Menu", href: "#menu" },
+        { label: "About Us", href: "#about" },
+        { label: "Contact", href: "#contact" },
+      ];
+
+      return (
+        <header className="sticky top-0 z-40 bg-leaf-green text-on-leaf-green border-b-2 border-turmeric-gold shadow-md">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex items-center justify-between h-16">
+              {/* Brand Logo */}
+              <a href="#home" className="flex items-center gap-3 focus-visible:outline-none">
+                <div className="w-10 h-10 rounded-full bg-turmeric-gold text-on-turmeric-gold flex items-center justify-center shadow-sm shrink-0">
+                  <KeralaPalmEmblem className="w-6 h-6" />
+                </div>
+                <div className="flex flex-col">
+                  <span className="font-headline text-title-lg text-on-leaf-green tracking-wide leading-none" data-design-text-token="title-lg">
+                    NADAN THATTUKADA
+                  </span>
+                  <span className="font-label text-label-sm text-light-secondary-container mt-0.5" data-design-text-token="label-sm">
+                    Authentic Taste of Kerala
+                  </span>
+                </div>
+              </a>
+
+              {/* Desktop Nav Links */}
+              <nav className="hidden md:flex items-center gap-7" aria-label="Primary navigation">
+                {links.map((link) => (
+                  <a
+                    key={link.label}
+                    href={link.href}
+                    className="font-label text-label-lg text-on-leaf-green hover:text-light-secondary-container transition-colors duration-state-change"
+                    data-design-text-token="label-lg"
+                  >
+                    {link.label}
+                  </a>
+                ))}
+              </nav>
+
+              {/* Right Actions */}
+              <div className="flex items-center gap-2.5">
+                <button
+                  type="button"
+                  onClick={onOpenMobileCart}
+                  className="inline-flex items-center gap-2 px-3.5 py-2 rounded bg-turmeric-gold text-on-turmeric-gold font-label text-label-md hover:bg-light-secondary-container transition-colors shadow-sm"
+                >
+                  <ShoppingBagIcon className="w-4 h-4" />
+                  <span className="tabular-nums" data-design-text-token="label-md">Order ({cartCount})</span>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => setMobileNavOpen(!mobileNavOpen)}
+                  className="md:hidden p-2 rounded text-on-leaf-green hover:bg-light-primary transition-colors"
+                  aria-label={mobileNavOpen ? "Close menu" : "Open menu"}
+                  aria-expanded={mobileNavOpen}
+                >
+                  {mobileNavOpen ? <XIcon className="w-6 h-6" /> : <MenuIcon className="w-6 h-6" />}
+                </button>
+              </div>
+            </div>
+          </div>
+
+          {/* Mobile Nav Drawer */}
+          {mobileNavOpen && (
+            <nav className="md:hidden bg-light-primary border-t border-turmeric-gold/40 px-4 py-3 space-y-1" aria-label="Mobile navigation">
+              {links.map((link) => (
+                <a
+                  key={link.label}
+                  href={link.href}
+                  onClick={() => setMobileNavOpen(false)}
+                  className="block px-3 py-2 rounded font-label text-label-lg text-on-leaf-green hover:bg-leaf-green"
+                  data-design-text-token="label-lg"
+                >
+                  {link.label}
+                </a>
+              ))}
+            </nav>
+          )}
+        </header>
+      );
+    }
+
+    function HeroBanner() {
+      return (
+        <section id="home" className="relative bg-teak-brown text-on-teak-brown overflow-hidden border-b-4 border-turmeric-gold">
+          <div className="relative h-64 sm:h-80 lg:h-96 w-full">
+            <img
+              src="https://lh3.googleusercontent.com/aida/ALJJyrDiDDeRc2iY3KrGcSuASg21UnsIjQWJKDvN4Gf08JQJ8cYaTbex8k1m0XX6VZD5hVJcSMH-AlDscVufVMt_tPEfSaD71KBl8t41ezCPiw_Sj4ZzlKLmwHBufs7QU_v42DYgptInjMrOcdonRGCf9D6MUHd-VE-l-aTyUC-CphoiIMaF6nGIkfHqkWvLSBfWmpedzrjZOmWJ9QwKblpA4oWJKI3-J7V0WMJsIQpw4wsVb3p9QLzkcYuK1Dc"
+              alt="Traditional Kerala Sadhya served on a fresh green banana leaf"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-teak-brown/90 via-teak-brown/75 to-leaf-green/50"></div>
+
+            <div className="absolute inset-0 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center">
+              <div className="max-w-xl space-y-3">
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-turmeric-gold text-on-turmeric-gold">
+                  <KeralaPalmEmblem className="w-4 h-4" />
+                  <span className="font-label text-label-sm uppercase tracking-wider" data-design-text-token="label-sm">
+                    Traditional Kerala Kitchen
+                  </span>
+                </div>
+
+                <h1 className="font-headline text-display-lg-mobile md:text-display-lg text-on-teak-brown text-balance" data-design-text-token="display-lg">
+                  Flavours of God&apos;s Own Country
+                </h1>
+
+                <p className="font-body text-body-lg text-light-surface-container max-w-lg text-pretty" data-design-text-token="body-lg">
+                  From crisp morning appams to banana-leaf sadhyas and clay-pot coastal seafood, prepared fresh with stone-ground spices.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      );
+    }
+
+    function MenuCategories({ activeCategory, onSelectCategory, searchQuery, setSearchQuery }) {
+      return (
+        <section id="menu" className="bg-light-surface-container-low border-b border-light-outline-variant py-5">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
+            {/* Title + Search Bar */}
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <div>
+                <h2 className="font-headline text-headline-md text-teak-brown" data-design-text-token="headline-md">
+                  Traditional Menu Card
+                </h2>
+                <p className="font-body text-body-sm text-light-outline" data-design-text-token="body-sm">
+                  Select a category or search for your favourite Kerala dish
+                </p>
+              </div>
+
+              <div className="relative w-full sm:w-72">
+                <span className="absolute left-3 top-1/2 -translate-y-1/2 text-light-outline pointer-events-none">
+                  <SearchIcon className="w-4 h-4" />
+                </span>
+                <input
+                  type="search"
+                  aria-label="Search Kerala dishes"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  placeholder="Search puttu, biryani, fish..."
+                  className="w-full pl-9 pr-3 py-2 rounded border border-light-outline-variant bg-light-surface-container-lowest font-body text-body-md text-light-on-surface placeholder:text-light-outline focus:border-leaf-green focus:ring-2 focus:ring-leaf-green/20"
+                />
+              </div>
+            </div>
+
+            {/* Horizontally scrollable on mobile, clean wrap on desktop */}
+            <div className="flex items-center gap-2 overflow-x-auto pb-1 sm:flex-wrap sm:overflow-visible">
+              {MENU_CATEGORIES.map((category) => {
+                const isActive = activeCategory === category;
+                return (
+                  <button
+                    key={category}
+                    type="button"
+                    onClick={() => onSelectCategory(category)}
+                    className={`px-4 py-2 rounded-full font-label text-label-md whitespace-nowrap transition-colors duration-state-change border ${
+                      isActive
+                        ? "bg-leaf-green text-on-leaf-green border-leaf-green shadow-sm"
+                        : "bg-light-surface-container-lowest text-teak-brown border-light-outline-variant hover:border-turmeric-gold hover:bg-light-surface-container"
+                    }`}
+                  >
+                    <span data-design-text-token="label-md">{category}</span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      );
+    }
+
+    function VegIndicator({ isVeg }) {
+      return (
+        <span
+          className={`inline-flex items-center justify-center w-4 h-4 rounded-sm border ${
+            isVeg ? "border-veg-green" : "border-nonveg-red"
+          }`}
+          title={isVeg ? "Vegetarian" : "Non-Vegetarian"}
+          aria-label={isVeg ? "Vegetarian" : "Non-Vegetarian"}
+        >
+          <span className={`w-2 h-2 rounded-full ${isVeg ? "bg-veg-green" : "bg-nonveg-red"}`}></span>
+        </span>
+      );
+    }
+
+    function FoodCard({ item, quantity, onAdd, onIncrement, onDecrement }) {
+      return (
+        <article
+          data-component-id="card-action"
+          data-component-type="card"
+          data-component-variant="action"
+          className="h-full bg-light-surface-container-lowest rounded-md border border-light-outline-variant overflow-hidden shadow-sm hover:shadow-md hover:border-turmeric-gold transition-all duration-state-change flex flex-col justify-between"
+        >
+          {/* Food Photography */}
+          <div className="relative aspect-[4/3] w-full overflow-hidden bg-light-surface-container">
+            <img
+              src={item.image}
+              alt={item.name}
+              className="w-full h-full object-cover"
+            />
+            {item.badge && (
+              <span
+                data-component-id="badge-status"
+                data-component-type="badge"
+                data-component-variant="status"
+                className="absolute top-2.5 left-2.5 px-2.5 py-0.5 rounded-full bg-turmeric-gold text-on-turmeric-gold font-label text-label-sm shadow-sm"
+              >
+                <span data-design-text-token="label-sm">{item.badge}</span>
+              </span>
+            )}
+          </div>
+
+          {/* Card Content */}
+          <div className="p-3 sm:p-4 flex flex-col flex-1 justify-between gap-3">
+            <div className="space-y-1.5 min-w-0">
+              <div className="flex items-start justify-between gap-2">
+                <h3 className="font-headline text-title-md text-teak-brown leading-snug truncate" title={item.name} data-design-text-token="title-md">
+                  {item.name}
+                </h3>
+                <div className="pt-0.5 shrink-0">
+                  <VegIndicator isVeg={item.isVeg} />
+                </div>
+              </div>
+
+              <p className="font-body text-body-sm text-leaf-green" style={{ fontFamily: "'Noto Sans Malayalam', 'Inter', sans-serif" }} data-design-text-token="body-sm">
+                {item.malayalam}
+              </p>
+
+              <p className="font-body text-body-md text-light-on-surface-variant line-clamp-2 text-pretty" data-design-text-token="body-md">
+                {item.description}
+              </p>
+            </div>
+
+            {/* Price + Add to Cart */}
+            <footer className="flex items-center justify-between gap-2 pt-3 border-t border-light-surface-variant">
+              <span className="font-headline text-title-lg text-leaf-green tabular-nums" data-design-text-token="title-lg">
+                ₹{item.price}
+              </span>
+
+              {quantity > 0 ? (
+                <div className="inline-flex items-center rounded border border-leaf-green bg-light-surface-container-low">
+                  <button
+                    type="button"
+                    onClick={() => onDecrement(item.id)}
+                    aria-label={`Decrease quantity of ${item.name}`}
+                    className="p-1.5 text-leaf-green hover:bg-leaf-green hover:text-on-leaf-green transition-colors"
+                  >
+                    <MinusIcon className="w-3.5 h-3.5" />
+                  </button>
+                  <span className="px-2 font-label text-label-md text-teak-brown tabular-nums" data-design-text-token="label-md">
+                    {quantity}
+                  </span>
+                  <button
+                    type="button"
+                    onClick={() => onIncrement(item.id)}
+                    aria-label={`Increase quantity of ${item.name}`}
+                    className="p-1.5 text-leaf-green hover:bg-leaf-green hover:text-on-leaf-green transition-colors"
+                  >
+                    <PlusIcon className="w-3.5 h-3.5" />
+                  </button>
+                </div>
+              ) : (
+                <button
+                  type="button"
+                  onClick={() => onAdd(item)}
+                  data-component-id="button-primary"
+                  data-component-type="button"
+                  data-component-variant="primary"
+                  className="px-2.5 sm:px-3.5 py-1.5 rounded bg-leaf-green text-on-leaf-green font-label text-label-md hover:bg-light-primary transition-colors shadow-sm whitespace-nowrap"
+                >
+                  <span data-design-text-token="label-md">Add to Cart</span>
+                </button>
+              )}
+            </footer>
+          </div>
+        </article>
+      );
+    }
+
+    function FoodGrid({ items, cart, onAdd, onIncrement, onDecrement, onResetCategory }) {
+      if (items.length === 0) {
+        return (
+          <div className="bg-light-surface-container-lowest rounded-md border border-light-outline-variant p-10 text-center">
+            <p className="font-headline text-title-lg text-teak-brown mb-2" data-design-text-token="title-lg">
+              No dishes found in this section
+            </p>
+            <p className="font-body text-body-md text-light-on-surface-variant mb-4" data-design-text-token="body-md">
+              Try another category or clear your search query to browse the full Kerala menu.
+            </p>
+            <button
+              type="button"
+              onClick={onResetCategory}
+              className="px-4 py-2 rounded bg-leaf-green text-on-leaf-green font-label text-label-lg hover:bg-light-primary"
+            >
+              <span data-design-text-token="label-lg">Show Full Menu</span>
+            </button>
+          </div>
+        );
+      }
+
+      return (
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-5 items-stretch">
+          {items.map((item) => {
+            const cartEntry = cart.find((c) => c.id === item.id);
+            return (
+              <FoodCard
+                key={item.id}
+                item={item}
+                quantity={cartEntry ? cartEntry.quantity : 0}
+                onAdd={onAdd}
+                onIncrement={onIncrement}
+                onDecrement={onDecrement}
+              />
+            );
+          })}
+        </div>
+      );
+    }
+
+    function CartItem({ item, onIncrement, onDecrement, onRemove }) {
+      return (
+        <div className="flex items-start justify-between gap-3 py-3 border-b border-light-surface-variant last:border-b-0">
+          <div className="min-w-0 flex-1">
+            <div className="flex items-center gap-2">
+              <VegIndicator isVeg={item.isVeg} />
+              <p className="font-label text-label-md text-teak-brown truncate" data-design-text-token="label-md">
+                {item.name}
+              </p>
+            </div>
+            <p className="font-body text-body-sm text-light-outline tabular-nums mt-0.5" data-design-text-token="body-sm">
+              ₹{item.price} × {item.quantity} = <span className="font-semibold text-leaf-green">₹{item.price * item.quantity}</span>
+            </p>
+          </div>
+
+          <div className="flex items-center gap-1.5 shrink-0">
+            <div className="inline-flex items-center rounded border border-light-outline-variant bg-light-surface">
+              <button
+                type="button"
+                onClick={() => onDecrement(item.id)}
+                aria-label={`Decrease ${item.name}`}
+                className="p-1 text-teak-brown hover:bg-light-surface-container"
+              >
+                <MinusIcon className="w-3.5 h-3.5" />
+              </button>
+              <span className="px-2 font-label text-label-sm text-teak-brown tabular-nums" data-design-text-token="label-sm">
+                {item.quantity}
+              </span>
+              <button
+                type="button"
+                onClick={() => onIncrement(item.id)}
+                aria-label={`Increase ${item.name}`}
+                className="p-1 text-teak-brown hover:bg-light-surface-container"
+              >
+                <PlusIcon className="w-3.5 h-3.5" />
+              </button>
+            </div>
+
+            <button
+              type="button"
+              onClick={() => onRemove(item.id)}
+              aria-label={`Remove ${item.name}`}
+              className="p-1 text-light-outline hover:text-light-error transition-colors"
+            >
+              <Trash2Icon className="w-4 h-4" />
+            </button>
+          </div>
+        </div>
+      );
+    }
+
+    function CartSidebar({ cart, onIncrement, onDecrement, onRemove, onClearCart }) {
+      const [orderPlaced, setOrderPlaced] = useState(false);
+
+      const subtotal = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+      const gst = Math.round(subtotal * 0.05);
+      const total = subtotal + gst;
+      const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+
+      const handlePlaceOrder = () => {
+        setOrderPlaced(true);
+        onClearCart();
+      };
+
+      return (
+        <aside className="bg-light-surface-container-lowest rounded-lg border-2 border-turmeric-gold/60 shadow-md p-5 sticky top-20">
+          <div className="flex items-center justify-between pb-3 border-b border-light-outline-variant">
+            <div className="flex items-center gap-2">
+              <ShoppingBagIcon className="w-5 h-5 text-leaf-green" />
+              <h2 className="font-headline text-headline-md text-teak-brown" data-design-text-token="headline-md">
+                Your Order
+              </h2>
+            </div>
+            <span className="px-2.5 py-0.5 rounded-full bg-turmeric-gold text-on-turmeric-gold font-label text-label-sm tabular-nums" data-design-text-token="label-sm">
+              {totalItems} {totalItems === 1 ? "Item" : "Items"}
+            </span>
+          </div>
+
+          {orderPlaced ? (
+            <div className="py-6 text-center space-y-3">
+              <div className="w-12 h-12 rounded-full bg-light-surface-container text-leaf-green mx-auto flex items-center justify-center">
+                <CheckCircle2Icon className="w-7 h-7" />
+              </div>
+              <h3 className="font-headline text-title-lg text-leaf-green" data-design-text-token="title-lg">
+                Order Sent to Kitchen!
+              </h3>
+              <p className="font-body text-body-md text-light-on-surface-variant" data-design-text-token="body-md">
+                Your freshly prepared Kerala meal will be served shortly.
+              </p>
+              <button
+                type="button"
+                onClick={() => setOrderPlaced(false)}
+                className="w-full py-2 rounded bg-leaf-green text-on-leaf-green font-label text-label-lg hover:bg-light-primary"
+              >
+                <span data-design-text-token="label-lg">Start New Order</span>
+              </button>
+            </div>
+          ) : cart.length === 0 ? (
+            <div className="py-10 text-center space-y-2">
+              <p className="font-headline text-title-md text-teak-brown" data-design-text-token="title-md">
+                Your banana leaf is empty
+              </p>
+              <p className="font-body text-body-sm text-light-outline" data-design-text-token="body-sm">
+                Tap &ldquo;Add to Cart&rdquo; on any Kerala dish to build your meal.
+              </p>
+            </div>
+          ) : (
+            <div className="mt-2">
+              <div className="max-h-72 overflow-y-auto pr-1">
+                {cart.map((item) => (
+                  <CartItem
+                    key={item.id}
+                    item={item}
+                    onIncrement={onIncrement}
+                    onDecrement={onDecrement}
+                    onRemove={onRemove}
+                  />
+                ))}
+              </div>
+
+              <div className="mt-4 pt-3 border-t border-light-outline-variant space-y-2">
+                <div className="flex justify-between font-body text-body-md text-light-on-surface-variant">
+                  <span data-design-text-token="body-md">Subtotal</span>
+                  <span className="tabular-nums" data-design-text-token="body-md">₹{subtotal}</span>
+                </div>
+                <div className="flex justify-between font-body text-body-sm text-light-outline">
+                  <span data-design-text-token="body-sm">GST (5%)</span>
+                  <span className="tabular-nums" data-design-text-token="body-sm">₹{gst}</span>
+                </div>
+                <div className="flex justify-between pt-2 border-t border-light-surface-variant font-headline text-title-lg text-teak-brown">
+                  <span data-design-text-token="title-lg">Total</span>
+                  <span className="text-leaf-green tabular-nums" data-design-text-token="title-lg">₹{total}</span>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                onClick={handlePlaceOrder}
+                className="w-full mt-4 py-3 rounded bg-leaf-green text-on-leaf-green font-label text-label-lg hover:bg-light-primary transition-colors shadow-sm"
+              >
+                <span data-design-text-token="label-lg">Place Order • ₹{total}</span>
+              </button>
+            </div>
+          )}
+        </aside>
+      );
+    }
+
+    function Footer() {
+      return (
+        <footer id="contact" className="bg-teak-brown text-on-teak-brown border-t-4 border-turmeric-gold mt-auto pb-20 lg:pb-0">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div id="about" className="space-y-3">
+                <div className="flex items-center gap-2.5">
+                  <div className="w-9 h-9 rounded-full bg-turmeric-gold text-on-turmeric-gold flex items-center justify-center">
+                    <KeralaPalmEmblem className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h3 className="font-headline text-title-lg text-on-teak-brown" data-design-text-token="title-lg">
+                      NADAN THATTUKADA
+                    </h3>
+                    <p className="font-label text-label-sm text-light-secondary-container" data-design-text-token="label-sm">
+                      Authentic Taste of Kerala
+                    </p>
+                  </div>
+                </div>
+                <p className="font-body text-body-sm text-light-surface-container leading-relaxed" data-design-text-token="body-sm">
+                  Celebrating Kerala&apos;s culinary heritage with fresh coconut oil, clay-pot curries, hand-tossed porottas, and warm hospitality.
+                </p>
+              </div>
+
+              <div className="space-y-2.5">
+                <h3 className="font-headline text-title-md text-light-secondary-container" data-design-text-token="title-md">
+                  Visit &amp; Hours
+                </h3>
+                <p className="flex items-start gap-2 font-body text-body-sm text-light-surface-container">
+                  <MapPinIcon className="w-4 h-4 mt-0.5 shrink-0 text-turmeric-gold" />
+                  <span data-design-text-token="body-sm">Marine Drive Road, Ernakulam, Kochi, Kerala 682031</span>
+                </p>
+                <p className="flex items-center gap-2 font-body text-body-sm text-light-surface-container">
+                  <ClockIcon className="w-4 h-4 shrink-0 text-turmeric-gold" />
+                  <span data-design-text-token="body-sm">Daily: 7:00 AM – 11:00 PM</span>
+                </p>
+              </div>
+
+              <div className="space-y-2.5">
+                <h3 className="font-headline text-title-md text-light-secondary-container" data-design-text-token="title-md">
+                  Reservations &amp; Takeaways
+                </h3>
+                <p className="flex items-center gap-2 font-body text-body-sm text-light-surface-container">
+                  <PhoneIcon className="w-4 h-4 shrink-0 text-turmeric-gold" />
+                  <span data-design-text-token="body-sm">+91 484 236 8899</span>
+                </p>
+                <p className="font-body text-body-sm text-light-surface-container" data-design-text-token="body-sm">
+                  &copy; 2026 Nadan Thattukada. All rights reserved.
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      );
+    }
+
+    // =========================================================================
+    // Main App
+    // =========================================================================
+    function App() {
+      const [activeCategory, setActiveCategory] = useState("All");
+      const [searchQuery, setSearchQuery] = useState("");
+      const [cart, setCart] = useState([
+        { ...MENU_ITEMS[0], quantity: 1 },
+        { ...MENU_ITEMS[4], quantity: 1 },
+      ]);
+      const [mobileCartOpen, setMobileCartOpen] = useState(false);
+
+      const filteredItems = useMemo(() => {
+        const q = searchQuery.trim().toLowerCase();
+        return MENU_ITEMS.filter((item) => {
+          const matchesCategory =
+            activeCategory === "All" ||
+            item.category === activeCategory ||
+            item.secondaryCategory === activeCategory;
+          const matchesQuery =
+            !q ||
+            item.name.toLowerCase().includes(q) ||
+            item.description.toLowerCase().includes(q) ||
+            item.category.toLowerCase().includes(q);
+          return matchesCategory && matchesQuery;
+        });
+      }, [activeCategory, searchQuery]);
+
+      const handleAddToCart = (item) => {
+        setCart((prev) => {
+          const existing = prev.find((c) => c.id === item.id);
+          if (existing) {
+            return prev.map((c) => (c.id === item.id ? { ...c, quantity: c.quantity + 1 } : c));
+          }
+          return [...prev, { ...item, quantity: 1 }];
+        });
+      };
+
+      const handleIncrement = (id) => {
+        setCart((prev) => prev.map((c) => (c.id === id ? { ...c, quantity: c.quantity + 1 } : c)));
+      };
+
+      const handleDecrement = (id) => {
+        setCart((prev) =>
+          prev
+            .map((c) => (c.id === id ? { ...c, quantity: c.quantity - 1 } : c))
+            .filter((c) => c.quantity > 0)
+        );
+      };
+
+      const handleRemove = (id) => {
+        setCart((prev) => prev.filter((c) => c.id !== id));
+      };
+
+      const handleClearCart = () => setCart([]);
+
+      const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+      const subtotal = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+      const total = subtotal + Math.round(subtotal * 0.05);
+
+      return (
+        <div className="min-h-screen flex flex-col bg-light-surface text-light-on-surface">
+          <RestaurantNavbar
+            cartCount={totalItems}
+            onOpenMobileCart={() => setMobileCartOpen(true)}
+          />
+
+          <HeroBanner />
+
+          <MenuCategories
+            activeCategory={activeCategory}
+            onSelectCategory={setActiveCategory}
+            searchQuery={searchQuery}
+            setSearchQuery={setSearchQuery}
+          />
+
+          <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+              {/* Menu Grid */}
+              <div className="lg:col-span-8">
+                <div className="flex items-center justify-between mb-4">
+                  <h2 className="font-headline text-headline-md text-teak-brown" data-design-text-token="headline-md">
+                    {activeCategory === "All" ? "All Kerala Dishes" : activeCategory}
+                  </h2>
+                  <span className="font-label text-label-md text-light-outline tabular-nums" data-design-text-token="label-md">
+                    {filteredItems.length} {filteredItems.length === 1 ? "Dish" : "Dishes"}
+                  </span>
+                </div>
+
+                <FoodGrid
+                  items={filteredItems}
+                  cart={cart}
+                  onAdd={handleAddToCart}
+                  onIncrement={handleIncrement}
+                  onDecrement={handleDecrement}
+                  onResetCategory={() => {
+                    setActiveCategory("All");
+                    setSearchQuery("");
+                  }}
+                />
+              </div>
+
+              {/* Desktop Right Cart Sidebar */}
+              <div className="hidden lg:block lg:col-span-4">
+                <CartSidebar
+                  cart={cart}
+                  onIncrement={handleIncrement}
+                  onDecrement={handleDecrement}
+                  onRemove={handleRemove}
+                  onClearCart={handleClearCart}
+                />
+              </div>
+            </div>
+          </main>
+
+          <Footer />
+
+          {/* Mobile Fixed Bottom Cart Bar */}
+          {totalItems > 0 && (
+            <div className="lg:hidden fixed bottom-0 inset-x-0 z-40 bg-leaf-green text-on-leaf-green border-t-2 border-turmeric-gold px-4 py-3 shadow-lg">
+              <div className="flex items-center justify-between gap-4">
+                <div>
+                  <p className="font-label text-label-md text-light-secondary-container tabular-nums" data-design-text-token="label-md">
+                    {totalItems} {totalItems === 1 ? "Item" : "Items"} in Order
+                  </p>
+                  <p className="font-headline text-title-lg text-on-leaf-green tabular-nums" data-design-text-token="title-lg">
+                    ₹{total} <span className="font-body text-body-sm font-normal">(incl. GST)</span>
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setMobileCartOpen(true)}
+                  className="px-5 py-2.5 rounded bg-turmeric-gold text-on-turmeric-gold font-label text-label-lg shadow-sm"
+                >
+                  <span data-design-text-token="label-lg">View Order</span>
+                </button>
+              </div>
+            </div>
+          )}
+
+          {/* Mobile Cart Sheet */}
+          {mobileCartOpen && (
+            <div className="lg:hidden fixed inset-0 z-50 bg-teak-brown/60 flex items-end justify-center">
+              <div className="bg-light-surface w-full max-h-[85vh] overflow-y-auto rounded-t-xl p-4">
+                <div className="flex justify-end mb-2">
+                  <button
+                    type="button"
+                    onClick={() => setMobileCartOpen(false)}
+                    aria-label="Close order summary"
+                    className="p-2 rounded-full text-teak-brown hover:bg-light-surface-container"
+                  >
+                    <XIcon className="w-5 h-5" />
+                  </button>
+                </div>
+                <CartSidebar
+                  cart={cart}
+                  onIncrement={handleIncrement}
+                  onDecrement={handleDecrement}
+                  onRemove={handleRemove}
+                  onClearCart={handleClearCart}
+                />
+              </div>
+            </div>
+          )}
+        </div>
+      );
+    }
+
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(<App />);
+  </script>
+
+
+</body></html>
