@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+  command = "echo 'Static site - no build step'"
+
+# Keep the old file URL working
+[[redirects]]
+  from = "/nadan_thattukada_kerala_menu.html"
+  to = "/"
+  status = 301
