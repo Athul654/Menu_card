@@ -1,0 +1,10 @@
+[build]
+  # Static site: no build step, publish the repository root
+  command = ""
+  publish = "."
+
+# Keep the old file URL working
+[[redirects]]
+  from = "/nadan_thattukada_kerala_menu.html"
+  to = "/"
+  status = 301
